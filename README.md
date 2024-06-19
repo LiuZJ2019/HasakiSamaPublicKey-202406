@@ -7,7 +7,7 @@
 1. 安装python的Crypto库，如果你是Windows用户，可以使用 `pip install pycryptodome` 命令安装
 2. 将我发布的PDF文件（如 `test.pdf` ）拷贝到本路径下
 3. 将我发布的RSA签名替换掉第7行的 `signature` 变量内容（即 `b''` 内部的内容，保留 `b''` 这三个字符）
-4. 运行程序，第一行输出为SHA-256值，应与我发布的SHA-256值一致。第二行输出 `Valid signature` 视为校验通过，说明是我本人发布的，否则说明不是我本人发布的。
+4. 运行 `test.py` 程序，第一行输出为SHA-256值，应与我发布的SHA-256值一致。第二行输出 `Valid signature` 视为校验通过，说明是我本人发布的，否则说明不是我本人发布的。
 
 测试用例：
 1. 确保本目录下已存在 `hasaki-public-key.pem` ，这是我的RSA公钥（不用ECC的原因是配置折腾起来麻烦）
