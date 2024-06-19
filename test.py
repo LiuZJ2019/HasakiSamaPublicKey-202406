@@ -1,3 +1,4 @@
+# encoding=utf-8
 import base64
 from Crypto.PublicKey import RSA
 from Crypto.Hash import SHA256
