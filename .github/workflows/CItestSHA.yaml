@@ -1,11 +1,9 @@
 name: CItestSHA
-
 on: [push]
-
 jobs:
 
-  test:
-    name: Run tests
+  CItestSHA:
+    name: Run CItestSHA
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
